@@ -18,38 +18,38 @@ These steps will only cover the process of installing Unity using Unity Hub, as 
 1) Download Unity Hub from the main Unity website: https://unity.com/download
 2) When the download is complete, run the installer
 3) Depending on your Windows configuration, you will likely get this prompt, click "Yes"
-	!()[/images/environment/UnityHub01.png]
+	!()[/mgmoddocs/images/environment/UnityHub01.png]
 4) Accept the license terms
-	!()[/images/environment/UnityHub02.png]
+	!()[/mgmoddocs/images/environment/UnityHub02.png]
 5) Change the installation path if you want to, and then click Install
-	!()[/images/environment/UnityHub03.png]
+	!()[/mgmoddocs/images/environment/UnityHub03.png]
 6) The Unity installation will take a few seconds
-	!()[/images/environment/UnityHub04.png]
+	!()[/mgmoddocs/images/environment/UnityHub04.png]
 7) Once the installation is complete, leave the "Run Unity Hub" checked, and click the Finish button.
-	!()[/images/environment/UnityHub05.png]
+	!()[/mgmoddocs/images/environment/UnityHub05.png]
 
 ## 2.2 Running Unity Hub for the first time
 
 Next, we will need to set up Unity Hub so that we can download and use the Editor. We basically need to Add a license to be able to use Unity.
 
 1) When Unity Hub launches, click the Sign In button, or create an account if you haven't already.
-	!()[/images/environment/UnityHub06.png]
+	!()[/mgmoddocs/images/environment/UnityHub06.png]
 2) This should open your default web browser to the Unity website where you can log in. Enter your info and click Sign In
-	!()[/images/environment/UnityHub07.png]
+	!()[/mgmoddocs/images/environment/UnityHub07.png]
 3) You might be prompted with this alert in your browser, select "Always allow" and then click Open Link
-	!()[/images/environment/UnityHub08.png]
+	!()[/mgmoddocs/images/environment/UnityHub08.png]
 4) Unity Hub should now show that it is signing you in:
-	!()[/images/environment/UnityHub09.png]
+	!()[/mgmoddocs/images/environment/UnityHub09.png]
 5) Unity Hub will prompt asking you to install the latest version of the Unity Editor, click the "Skip installation" button in the bottom
-	!()[/images/environment/UnityHub10.png]
+	!()[/mgmoddocs/images/environment/UnityHub10.png]
 6) You will likely have a banner along the top of Unity Hub prompting you to activate your license, click the Manage Licenses button
-	!()[/images/environment/UnityHub11.png]
+	!()[/mgmoddocs/images/environment/UnityHub11.png]
 7) Click the Add license button
-	!()[/images/environment/UnityHub12.png]
+	!()[/mgmoddocs/images/environment/UnityHub12.png]
 8) Click "Get a free personal license" if you don't have subscription already
-	!()[/images/environment/UnityHub13.png]
+	!()[/mgmoddocs/images/environment/UnityHub13.png]
 9) Review the terms, and if you agree, click the button to agree
-	!()[/images/environment/UnityHub14.png]
+	!()[/mgmoddocs/images/environment/UnityHub14.png]
 10) It should now add the personal license to the list of available licenses. Close the licenses dialog
 11) We are now ready to install the Unity Editor
 
@@ -60,19 +60,19 @@ To make mods for My Garage, we now need to install the same version of the Unity
 1) Open [Fede's download page](https://docs.fedes.uy/#/downloads)
 2) In the Unity section, click the Unity Hub link
 3) Your browser might prompt you with this message, click the Open Link button
-	!()[/images/environment/UnityEditor01.png]
+	!()[/mgmoddocs/images/environment/UnityEditor01.png]
 4) Unity Hub should display the following module selection screen. Unselect the Visual Studio Community 2019 and click Install. We don't need VS 2019, and will install a newer version later.
-	!()[/images/environment/UnityEditor02.png]
+	!()[/mgmoddocs/images/environment/UnityEditor02.png]
 5) You will likely now have a Downloads dialog open in Unity Hub, showing the progress of the install, this is a big download and can take a while depending on your connection speed. If you close this dialog, you can reopen it by clicking the Downloads button in the bottom left of the Unity Hub to view the progress.
-	!()[/images/environment/UnityEditor03.png]
+	!()[/mgmoddocs/images/environment/UnityEditor03.png]
 6) When the download is complete, you will likely get this prompt, click "Yes" to start the install
-      !()[/images/environment/UnityEditor04.png]
+      !()[/mgmoddocs/images/environment/UnityEditor04.png]
 7) The install process will be just waiting for the progress bar some more, though this should be fairly quick.
-	!()[/images/environment/UnityEditor05.png]
+	!()[/mgmoddocs/images/environment/UnityEditor05.png]
 8) Wait until the install is complete, and then close the downloads dialog
-	!()[/images/environment/UnityEditor06.png]
+	!()[/mgmoddocs/images/environment/UnityEditor06.png]
 9) It should now show the 2020.3.0f1 version of Unity Editor in the installs section of Unity Hub
-	!()[/images/environment/UnityEditor07.png]
+	!()[/mgmoddocs/images/environment/UnityEditor07.png]
 
 # 3. Visual Studio 2022
 
@@ -85,23 +85,23 @@ Official documentation is available here: https://learn.microsoft.com/en-us/visu
 1) Download the Community edition of Visual studio 2022: https://visualstudio.microsoft.com/downloads/
 2) When the download is complete, run the VisualStudioSetup.exe
 3) You will likely be prompted with this, click Yes
-	!()[/images/environment/VisualStudio01.png]
+	!()[/mgmoddocs/images/environment/VisualStudio01.png]
 4) Review the privacy policy and the license terms, and then click continue:
-   !()[/images/environment/VisualStudio02.png]
+   !()[/mgmoddocs/images/environment/VisualStudio02.png]
 5) It will download some basic installer components, should be pretty quick
-	!()[/images/environment/VisualStudio03.png]
+	!()[/mgmoddocs/images/environment/VisualStudio03.png]
 6) You should then be prompted to select what "Workloads" to install. For modding My Garage, and Unity Games in general, we will need the .NET desktop development. Select it.
-	!()[/images/environment/VisualStudio04.png]
+	!()[/mgmoddocs/images/environment/VisualStudio04.png]
 7) This should display components in the right side. We won't need all of them, and can unselect a few of them to save some space, this is the component set that I chose to install
-	!()[/images/environment/VisualStudio05.png]
+	!()[/mgmoddocs/images/environment/VisualStudio05.png]
 8) After selecting the components, click the Install button in the bottom right:
-    !()[/images/environment/VisualStudio06.png]
+    !()[/mgmoddocs/images/environment/VisualStudio06.png]
 9) You should now see some progress bars showing the status of the installation. This can take a while.
-	!()[/images/environment/VisualStudio07.png]
+	!()[/mgmoddocs/images/environment/VisualStudio07.png]
 10) When the installation is complete, you will likely be prompted to sign in, just click "Skip this for now"
-	!()[/images/environment/VisualStudio08.png]
+	!()[/mgmoddocs/images/environment/VisualStudio08.png]
 11) Pick a color theme, and then click Start Visual Studio
-	!()[/images/environment/VisualStudio09.png]
+	!()[/mgmoddocs/images/environment/VisualStudio09.png]
 12) At the next screen to open or create a project, just close Visual studio for now.
 
 # 4. Blender
@@ -115,21 +115,21 @@ Official installation documentation is available here: [https://docs.blender.org
 1) Download the latest version of Blender from the official website https://www.blender.org/download/ 
 2) When the download is complete, run the installer.
 3) As of the writing of this guide, Blender 4.0.1 was just released, and Windows will likely prompt with this scary looking dialog due to the installer not being run on all that many systems yet:
-	!()[/images/environment/Blender01.png]
+	!()[/mgmoddocs/images/environment/Blender01.png]
 4) Click the "More Info" to review the App, and Publisher, if it looks like the following, click "Run anyway"
-	!()[/images/environment/Blender02.png]
+	!()[/mgmoddocs/images/environment/Blender02.png]
 5) The install is straight forward from here. Click next
-	!()[/images/environment/Blender03.png]
+	!()[/mgmoddocs/images/environment/Blender03.png]
 6) Review and accept the terms, and then click next
-	!()[/images/environment/Blender04.png]
+	!()[/mgmoddocs/images/environment/Blender04.png]
 7) Leave the default components in the custom setup, just click Next
-	!()[/images/environment/Blender06.png]
+	!()[/mgmoddocs/images/environment/Blender06.png]
 8) Click Install
-	!()[/images/environment/Blender07.png]
+	!()[/mgmoddocs/images/environment/Blender07.png]
 9) During the install, you may be prompted with this dialog, click "Yes"
-	!()[/images/environment/Blender08.png]
+	!()[/mgmoddocs/images/environment/Blender08.png]
 10) Eventually, blender will finish install, click Finish
-	!()[/images/environment/Blender09.png]
+	!()[/mgmoddocs/images/environment/Blender09.png]
 	
 # 5. dnSpy
 
@@ -147,7 +147,7 @@ There are several alternate applications that have similar functionality, though
 2) Download either the netframework or x64 version of dnSpy
 3) Extract the archive to a folder where you would like to "install" it to
 4) Example showing extractecd files from netframework package
-	!()[/images/environment/dnSpy01.png]
+	!()[/mgmoddocs/images/environment/dnSpy01.png]
 	
 # 6. Unity Explorer
 
@@ -166,14 +166,14 @@ BepInEx repository: https://github.com/BepInEx/BepInEx
 1) Download the latest x64 release of BepInEx https://github.com/BepInEx/BepInEx/releases version 5.4.22 was the latest at the time of this guide being written.
 2) Open Steam, find My Garage in the games list
 3) Right click on the game > Manage > Browse local files
-	!()[/images/environment/UnityExplorer01.png]
+	!()[/mgmoddocs/images/environment/UnityExplorer01.png]
 4) It should open the game install directory
-	!()[/images/environment/UnityExplorer02.png]
+	!()[/mgmoddocs/images/environment/UnityExplorer02.png]
 5) Open the BepInEx zip file, and extract the contents to the game install directory
-	!()[/images/environment/UnityExplorer03.png]
+	!()[/mgmoddocs/images/environment/UnityExplorer03.png]
 6) Open the BepInEx directory, leave this folder open for the time being.
 7) Go to the latest release page for Unity Explorer https://github.com/sinai-dev/UnityExplorer/releases
 8) You must download a specific version of Unity Explorer that is compatible with the version of BepInEx we are using. Find the most recent version with a download for UnityExplorer.BepInEx5.Mono.zip, as of this guide, the latest was 4.9.0
 9) Open the downloaded zip file, and copy the "plugins" folder into the BepInEx folder
-	!()[/images/environment/UnityExplorer04.png]
+	!()[/mgmoddocs/images/environment/UnityExplorer04.png]
 10) Start My Garage and wait for the main menu to load, if you see a new toolbar along the top, it is working
